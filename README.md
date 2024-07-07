@@ -19,16 +19,12 @@ In the analysis process, I followed three critical steps to ensure robust and ac
 
 3. _**Segmentation Results and Actionable Insights**_: employed the optimized hyperparameters to perform the clustering. Subsequently, I **visualized the 6 clusters** using a **3D plot**, assigned **meaningful names to each group**. To effectively **communicate my findings**, I used **box plots and bar plots** to highlight key insights and **recommendations among the top 4 customer segments**.
 
-<br>
-
 ##  ✨ 3.1 Explorative Data Analysis (EDA)
 ### 3.1.1 Data distributions, understand and familiarize with the dataset
+<img width="50%" align="center" 
+    src="image/sex_ratio.png">  
 <img width="100%" align="middle" 
     src="image/numeric_dist.png">
-    
-<img width="50%" align="center" 
-    src="image/sex_ratio.png">
-
 <img width="100%" align="middle" 
     src="image/gender_range.png">
 
@@ -36,8 +32,7 @@ In the analysis process, I followed three critical steps to ensure robust and ac
 
 <img width="100%" align="middle" 
     src="image/spend_income_scatterplot.png">
-
-
+<br>
 <img width="100%" align="middle" 
     src="image/age_violinplot.png">
 
@@ -48,8 +43,9 @@ In the analysis process, I followed three critical steps to ensure robust and ac
 
 ### 3.3.2 Recommendations Among Top-4 Potential Customer Segments
 <img width="100%" align="middle" 
-    src="image/after_cluster_boxplot.png">
-    
+    src="image/after_cluster_boxplot.png"> 
+
+
 <img width="100%" align="middle" 
     src="image/groups_gender_barplot.png">
 
@@ -89,7 +85,6 @@ We will validate our choice by plotting Silhouette score against kmeans.labels_.
 #### For comparison purposes, we also generated the visualization with n_clusters set to 5 and 7.
 <img width="100%" align="middle" 
     src="image/compare_silhouette_plot5.png">
-
 <img width="100%" align="middle" 
     src="image/compare_silhouette_plot7.png">
 
