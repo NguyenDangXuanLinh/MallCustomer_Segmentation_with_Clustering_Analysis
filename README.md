@@ -1,6 +1,6 @@
 <img width="80%" align="middle" 
     src="image/compare_silhouette_plot6.png">
-# Mall Customer Segmentation with Clustering Analysis
+# Mall Customers Segmentation with Clustering Analysis
 The project focuses on segmenting customers using unsupervised machine learning K-means clustering.
 
 ## 1. Project Objectives
